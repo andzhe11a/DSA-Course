@@ -14,7 +14,7 @@ public:
                 currentScore = 0;
             }
             else {
-                currentScore = parentScoresStack.top() + std::max(2 * currentScore, 1);
+                currentScore = parentScoresStack.top() + (currentScore == 0 ? 1 : 2 * currentScore);
                 parentScoresStack.pop();
             }
         }
