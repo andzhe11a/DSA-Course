@@ -22,7 +22,7 @@ int main() {
 
     reverse(s);
 
-    std::cout << "Stack: ";
+    std::cout << "Reversed stack: ";
     while (!s.empty()) {
         std::cout << s.top() << " ";
         s.pop();
