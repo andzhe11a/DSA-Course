@@ -21,7 +21,7 @@ struct Node {
         current->next = new Node(value);
     }
 
-    void print() {
+    void print() const {
         const Node* current = this;
 
         while (current->next != nullptr) {
