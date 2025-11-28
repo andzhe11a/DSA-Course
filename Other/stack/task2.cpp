@@ -52,7 +52,7 @@ void infixToRPN(const std::string& str) {
 int main() {
     std::string input = "3 + 4 * 2 / 1 - 5";
 
-    std::cout << "Infix:   " << input << std::endl;
+    std::cout << "Infix: " << input << std::endl;
     std::cout << "Postfix: ";
     infixToRPN(input);
 
